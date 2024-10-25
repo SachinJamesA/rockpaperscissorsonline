@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Feedback from "./components/Feedback";
 import Friends from "./components/Friends";
 import Room from "./components/Room";
+import Computer from "./components/Computer";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/friends" element={<Friends />} />
         <Route path="/room/:roomId" element={<Room />} />
+        <Route path="/computer" element={<Computer />} />
       </Routes>
     </Router>
   );

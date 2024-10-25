@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.activeNavbar {
+    left: 0;
+}
+
+.boxShadowContact{
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.boxShadownSignup{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}

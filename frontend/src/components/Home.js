@@ -46,7 +46,7 @@ const Home = () => {
           <p className="text-base text-gray-700 mb-4 dark:text-gray-300">
             Play Now By Clicking "Player vs Computer"s.
           </p>
-          <Link to="/main">
+          <Link to="/computer">
             <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
               PLAYER VS COMPUTER
             </button>
